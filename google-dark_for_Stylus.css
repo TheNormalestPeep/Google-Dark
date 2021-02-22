@@ -5,19 +5,28 @@ To contact me, email me at iamaducksoshutup@gmail.com or on Discord as best catt
 Unless highly requested, there are absolutely NO plans to add support for chrome extensions (e.g. Evernote).
 There will be no plans, by any means, for any platform except Google Chrome for Windows 10, as i do not have any knowledge of CSS for other platforms. If you still wish to use it, proceed at your own risk.
 However, there are future plans for other google websites, namely Google Translate and GMail. */
-/* To report widgets that I missed, such as Features Snippets or Dictionary, make sure to give a link so i can confirm it. */
-/* Known Issues:
-Google's search bar in the built-in Dictionary will create a white box when at any zoom under 100%. 
-
-The graph for use over time in Dictionary isn't colored. This is an image, and recoloring it would involve me recoloring every single one of them. 
-
-When loading any google page except for Search, the input is temporarily white*/
+/* To report widgets that I missed, such as Featured Snippets or Dictionary, make sure to give a link so I can confirm it. */
+/* Can't confirm google won't break the code by changing the CSS within a day. Be careful. */
+/* HOW TO INSTALL:
+Google search any search term.
+With stylus, click the very beginning of the google link under "Write style for..."
+Copy the code into Stylus.
+Click Save. */
 /* Google Search */
 .JolIg {
     color: #d6d6d6; }
 
 .v3jTId {
     color: #fff !important; }
+
+.gb_qa svg, .gb_Cc svg, .gb_Zc .gb_7d, .gb_Oc .gb_7d {
+    color: #d0d0d0; }
+
+.cG5GOd {
+    background: #131313; }
+
+.Ss2Faf {
+    color: #d0d0d0; }
 
 .Cy9gW {
     color: #d0d0d0; }
@@ -36,7 +45,7 @@ body {
     color: #d6d6d6; }
 
 cite, cite a:link, cite a:visited {
-    color: #ffffff;
+    color: #fff;
     font-style: normal; }
 
 .dyjrff {
@@ -56,12 +65,6 @@ a {
 
 .s75CSd {
     color: #d6d6d6; }
-
-.Ss2Faf {
-    color: #d0d0d0;
-    line-height: 1.182;
-    font-size: 22px;
-}
 
 .V2Zq0e {
     color: #d6d6d6; }
@@ -94,22 +97,22 @@ a {
 .hdtb-mitem .GOE98c, .hdtb-mitem a, .hdtb-mitem.hdtb-msel, .t2vtad {
     color: #d0d0d0; }
 
-.RNNXgb:hover, .sbfc .RNNXgb {
+.sbfc .RNNXgb {
     background-color: #0c0c0c; }
 
 .gLFyf {
     color: rgb(216 216 216); }
 
 .lBbtTb {
-    color: #ffffff; }
+    color: #fff; }
 
 .RNNXgb {
     background: #0c0c0c;
-    border: 1px solid #ffffff; }
+    border: 1px solid #fff; }
 
 .RNNXgb:hover {
-    background: #0c0c0c;
-    border: 1px solid #ffffff; }
+    background: #131313;
+    border: 1px solid #fff; }
 
 .y8Jpof:hover {
     background-color: #131313; }
@@ -146,7 +149,7 @@ body.vasq .WE0UJf {
     background: #242424 }
 
 .sbl1 {
-    color: #ffffff; }
+    color: #fff; }
 
 #rhs .nGydZ .garHBe {
     color: rgb(196, 196, 196); }
@@ -211,20 +214,38 @@ body.vasq .WE0UJf {
     background: #131313; }
 
 /* Google Translate (Widget) */
+/* God dammit google, stop changing your CSS, you've broke this code 3 times now */
 .language_list_item {
     color: #d0d0d0; }
 
-.tw-lp-search {
-    background: #131313;
-    border: 1px solid #fff;
+.language_list_languages {
+    background: #131313; }
+
+.wf-b #cnt, .wf-b #cnt .g, .wf-b #cnt .std, .wf-b #cnt h1, .wf-b #cnt input, .wf-b #cnt select {
     color: #d0d0d0; }
+
+.tw-src-ltr #tw-source {
+    border: 1px solid #fff }
 
 .GL3ftd {
     border-bottom: 1px solid #ffffff;
     background: #131313; }
 
 .tw-lliw:hover, .tw-lliw:focus {
+    background: #0c0c0c; }
+
+.tw-lliw {
     background: #131313; }
+
+.language-list-unfiltered-langs-sl_list, .language-list-unfiltered-langs-tl_list {
+    background: #131313; }
+
+.tw-ets .g9WsWb, .g9WsWb {
+    background: #131313;
+    border: 1px solid #fff; }
+
+#tw-source-text-container .tw-ta, #tw-source-rmn-container .tw-ta {
+    color: #d0d0d0; }
 
 .language_list_languages.tw-ll-top::after {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255 255 255 / 0%)); }
@@ -306,7 +327,7 @@ a.fl:link, .fl a, .gl a:link {
     background: #131313; }
 
 .qtwiP:hover {
-    background: #131313; }
+    background: #0c0c0c; }
 
 /* Calculator */
 .zRQJhd {
@@ -323,7 +344,7 @@ a.fl:link, .fl a, .gl a:link {
     margin-right: 8px; }
 
 .MXl0lf:hover {
-    background: #131313; }
+    background: #0c0c0c; }
 
 .WpKAof {
     color: #15a1d6; }
@@ -349,29 +370,29 @@ a.fl:link, .fl a, .gl a:link {
     border: 1px solid #fff; }
 
 #rcnt a.WpKAof:hover {
-    background: #131313; }
+    background: #0c0c0c; }
 
 /* Images minibox */
 .CNf3nf {
     background-color: #131313 !important;
-    border: 1px solid #ffffff !important; }
+    border: 1px solid #fff !important; }
 
 .Lu0opc.eSq3C:hover g-fab {
-    background-color: #131313 !important;
-    color: #ffffff !important; }
+    background-color: #0c0c0c !important;
+    color: #fff !important; }
 
 .KPV9xf {
     background: #131313 !important;
-    border: 1px solid #ffffff !important;
-    color: #ffffff !important; }
+    border: 1px solid #fff !important;
+    color: #fff !important; }
 
 .KPV9xf:hover {
-    background: #131313;
-    border: 1px solid #ffffff;
-    color: #ffffff; }
+    background: #0c0c0c;
+    border: 1px solid #fff;
+    color: #fff; }
 
 title-with-lhs-icon .ekf0x {
-    color: #ffffff; }
+    color: #fff; }
 
 .z1asCe svg {
     color: #d0d0d0 !important; }
@@ -386,7 +407,7 @@ title-with-lhs-icon .ekf0x {
     line-height: 1.182; }
 
 .dw-sb-cont .dw-sbi {
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     background: #131313; }
 
 .MXl0lf {
@@ -454,7 +475,7 @@ title-with-lhs-icon .ekf0x {
     background-color: #131313; }
 
 .e7RZX:hover {
-    background-color: #131313; }
+    background-color: #0c0c0c; }
 
 .ibFyOb {
     color: #d0d0d0; }
@@ -472,7 +493,7 @@ title-with-lhs-icon .ekf0x {
 /* Google News */
 .sbibod {
     background: #0c0c0c !important;
-    border: 1px solid #ffffff; }
+    border: 1px solid #fff; }
 
 .gsfi, .lst {
     color: #d0d0d0; }
@@ -527,6 +548,9 @@ li.sbsb_c {
 /* Google Images */
 .jZWadf {
     background: #131313; }
+
+.o44hBf {
+    color: #d0d0d0; }
 
 .gBPM8 .tmS4cc.VgAC5d .gadasb {
     color: #FFF; }
@@ -647,7 +671,7 @@ li.sbsb_c {
     border: 1px solid #fff; }
 
 .LNn04b:hover {
-    background: #131313;
+    background: #0c0c0c;
     border: 1px solid #fff; }
 
 .vXQmIe {
@@ -663,10 +687,35 @@ li.sbsb_c {
     color: #d0d0d0; }
 
 html:not(.zAoYTe) .kp-wholepage {
-    color: #d0d0d0; } 
+    color: #d0d0d0; }
 
-.HSryR .ySjHwc {
-    background: #055748 !important; }
+.HSryR .a1vOw.BY2RHc.bhpG1c {
+    background: #00524e; }
+
+.i8CXdc {
+    color: #d0d0d0; }
+
+a.ng6NAf {
+    color: #d0d0d0; }
+
+.HF8uc {
+    color: #d0d0d0; }
+
+.qzLemf .QTHPWb {
+    color: #d0d0d0; }
+
+.qzLemf {
+    color: #d0d0d0; }
+
+.dVcUje {
+    color: #d0d0d0;
+    border: 1px solid #fff; }
+
+.qzLemf .nwIcX .sGz8te {
+    color: #d0d0d0; }
+
+.H1HQf {
+    background: #00524e; }
 
 .FZzi2e {
     color: #17bfa1; }
@@ -686,5 +735,183 @@ html:not(.zAoYTe) .kp-wholepage {
 .JXRj4e, .NOK5hf, .c0L1fd {
     color: #d0d0d0; }
 
+.jHlrHf {
+    color: #d0d0d0; }
+
 .lyLwlc {
     color: #d0d0d0; }
+
+.AEbBGb b {
+    color: #70757a; }
+
+/* Other */
+/* Twitter Minibox (Variant B) */
+a.Ndm45b {
+    color: #a6a6a6; }
+
+.s {
+    color: #d0d0d0; }
+
+.rmxqbe {
+    background: #131313; }
+
+.xcQxib {
+    background: #131313; }
+
+/* Music Minibox */
+.Eegi6c {
+    color: #d0d0d0; }
+
+/* Tourism Minibox */
+.Y28wmf {
+    color: #d0d0d0; }
+
+.vk_bk {
+    color: #d0d0d0 !important; }
+
+.ygdOJd, .HNdZMe {
+    color: #d0d0d0; }
+
+.rl_item_base .title {
+    color: #d0d0d0; }
+
+.rl_item_base {
+    background-color: #131313;
+    border: 0 solid #fff; }
+
+.u9sbk.W2lMue {
+    color: #d0d0d0; }
+
+.u1M3kd.W2lMue {
+    color: #d0d0d0; }
+
+/* Literally anything made after all this */
+.xt8Uw {
+    color: #fff; }
+
+.PVsnzc {
+    color: #d0d0d0; }
+
+.fUflyc {
+    color: #d0d0d0; }
+
+.esuhec {
+    color: #d0d0d0; }
+
+.VJwspe {
+    color: #d0d0d0; }
+
+.cROF7c {
+    color: #d0d0d0; }
+
+.bclEt {
+    color: #d0d0d0; }
+
+.rsj3fb {
+    color: #d0d0d0; }
+
+.IZACzd {
+    color: #d0d0d0 }
+
+.BfIAp {
+    border: 1px solid #fff;
+    fill: #d0d0d0; }
+
+.BfIAp:hover {
+    border: 1px solid #fff;
+    fill: #d0d0d0; }
+
+.OZ8wsd {
+    color: #d0d0d0; }
+
+.BP43u {
+    color: #d0d0d0; }
+
+.H73aad {
+    background: #131313;
+    border: 1px solid #fff; }
+
+.jleFbf {
+    color: #d0d0d0; }
+
+.cEW58 {
+    background-color: #0c0c0c;
+    border: 1px solid #fff; }
+
+.dyAbMb {
+    fill: #d0d0d0; }
+
+.ZXJQ7c:hover {
+    background: #0c0c0c;
+    border: 1px solid #fff; }
+
+.PNyWAd {
+    background: #131313; }
+
+.XD1Bsc, .XD1Bsc:hover {
+    background: #0c0c0c;
+    border: 1px solid #fff; }
+
+.Hm7Qac:hover {
+    background: #131313; }
+
+.px4tKd {
+    color: #d0d0d0; }
+
+.amFhOb {
+    color: #d0d0d0; }
+
+.bKi57NPaiJ5__standalone-carousel {
+    background-color: #131313;
+    border: 1px solid #fff; }
+
+.Gm3B1b {
+    color: #d0d0d0; }
+
+.hdtb-tl-sel {
+    border: 1px solid #fff;
+    background: #131313; }
+
+.BklRsd {
+    background-color: #131313;
+    border: 1px solid #fff; }
+
+.EerX3 {
+    color: #15a1d6; }
+
+.cO53qb {
+    color: #d0d0d0 !important;
+    background-color: #131313;
+    border: 1px solid #fff; }
+
+.jEdCLc {
+    color: #d0d0d0; }
+
+.MR2UAc {
+    background-color: #131313;
+    border: 1px solid #fff; }
+
+.MR2UAc:hover {
+    background-color: #131313;
+    border: 1px solid #fff; }
+
+.LXqMce {
+    background: #131313 }
+
+.EyBRub {
+    background: #131313 }
+
+.YPxNKd {
+    background: #131313; }
+
+.appbar {
+    background: #131313; }
+
+.Rn1jbe {
+    background-color: #131313; }
+
+.wBIdUd:hover {
+    background: #0c0c0c; }
+
+.svpdod:hover {
+    background: #0c0c0c; }
